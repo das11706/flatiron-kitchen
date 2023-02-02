@@ -18,6 +18,7 @@ group :development, :test do
   gem "database_cleaner"
   gem "pry-byebug"
   gem "rspec-rails"
+  gem 'coderay', '~> 1.1', '>= 1.1.3'
 end
 
 group :test do
